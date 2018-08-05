@@ -382,7 +382,7 @@ unittest/%: %
 	$(VG) $(VG_TEST_ARGS) $* > /dev/null
 
 # Installation directories
-prefix = /usr/local
+prefix = ${PREFIX}
 exec_prefix = $(prefix)
 bindir = $(exec_prefix)/bin
 libexecdir = $(exec_prefix)/libexec
