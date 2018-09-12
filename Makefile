@@ -1,6 +1,6 @@
 #! /usr/bin/make
 VERSION_NAME=Principled Opposition to SegWit
-VERSION=$(shell git describe --always --dirty=-modded --abbrev=7)
+VERSION=0.6.1
 DISTRO=$(shell lsb_release -is 2>/dev/null || echo unknown)-$(shell lsb_release -rs 2>/dev/null || echo unknown)
 PKGNAME = c-lightning
 
