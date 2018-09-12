@@ -13,10 +13,10 @@ git clone --recursive https://github.com/bitcoin/libbase58.git external/libbase5
 (cd external/libbase58; git checkout 16c2527608053d2cc2fa05b2e3b5ae96065d1410)
 
 git clone --recursive https://github.com/jedisct1/libsodium.git external/libsodium
-(cd external/sodium; git checkout 675149b9b8b66ff44152553fb3ebf9858128363d)
+(cd external/libsodium; git checkout 675149b9b8b66ff44152553fb3ebf9858128363d)
 
 git clone --recursive https://github.com/ianlancetaylor/libbacktrace.git external/libbacktrace
-(cd external/libbacktrace; git clone 5a99ff7fed66b8ea8f09c9805c138524a7035ece)
+(cd external/libbacktrace; git checkout 5a99ff7fed66b8ea8f09c9805c138524a7035ece)
 
 git clone --recursive https://github.com/ElementsProject/libwally-core.git external/libwally-core
 (cd external/libwally-core; git checkout d8e389e840df4ed0dbd68201852c8bccd38564d8)
