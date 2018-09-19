@@ -28,9 +28,11 @@ lightningd/test/run-find_my_path
 lightningd/test/run-funding_tx
 lightningd/test/run-param
 lightningd/test/run-key_derive
+lightningd/test/run-find_my_abspath
 common/test/run-ip_port_parsing
 wire/test/run-peer-wire
 bitcoin/test/run-tx-encode
+bitcoin/test/run-secret_eq_consttime
 channeld/test/run-full_channel
 common/test/run-bolt11
 common/test/run-derive_basepoints
